@@ -1,0 +1,8 @@
+.menu {
+    display: flex;
+}
+
+.menu p,
+.menu input[type="date"] {
+    margin-right: 10px;
+}

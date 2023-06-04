@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="工程表テンプレート">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <header>
+        <nav class="nav">
+            <select>
+                <option>ファイル</option>
+                <option>開く</option>
+                <option>名前を付けて保存</option>
+                <option>印刷</option>
+                <option>出力</option>
+            </select>
+            <select>
+                <option>編集</option>
+                <option>図形を挿入</option>
+                <option>罫線</option>
+                <option>行を追加・削除</option>
+                <option>列を追加・削除</option>    
+                <option>ヘッダー・フッダーの編集</option>
+            </select>
+            <select>
+                <option>表示</option>
+                <option>拡大・縮小</option>
+                <option>色の変更</option>
+                <option>線の太さの変更</option>
+                <option>線種の変更</option>              
+            </select>
+            <select>
+                <option>ユーザー機能</option>
+                <option>ログイン</option>
+                <option>ログアウト</option>
+                <option>新規登録</option>
+                <option>登録解除</option>              
+            </select>           
+        </nav>
+    </header>
+
+    <body>
+        <div class="menu">
+            <p>開始日</p><input type="date" id="start" name="trip-start" value="2018-07-22" min="2023-01-01" max="2099-12-31">
+            <p>終了日</p><input type="date" id="end" name="trip-end" value="2018-07-22" min="2023-01-01" max="2099-12-31">
+            <p>休日</p><select id="weekly">
+                <option value="monday">月曜日</option>
+                <option value="tuesday">火曜日</option>
+                <option value="wednesday">水曜日</option>
+                <option value="thursday">木曜日</option>
+                <option value="friday">金曜日</option>
+                <option value="saturday">土曜日</option>
+                <option value="sunday">日曜日</option>
+            </select>
+        </div>
+
+        <div>
+            <title>基本的な表の作成</title>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>6/1</th>
+                    <th>6/2</th>
+                    <th>6/3</th>
+                    <th>6/4</th>
+                    <th>6/5</th>
+                    <th>6/6</th>
+                    <th>6/7</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>月</th>
+                    <th>火</th>
+                    <th>水</th>
+                    <th>木</th>
+                    <th>金</th>
+                    <th>土</th>
+                    <th>日</th>
+                </tr>
+                <tr>
+                    <td>仮設工事</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>内装工事</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>電気設備工事</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>空調設備工事</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>               
+        </div>
+
+    </body>
+
+</html>
